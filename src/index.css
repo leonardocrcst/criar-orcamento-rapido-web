@@ -1,0 +1,26 @@
+:root {
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.35;
+  font-weight: 300;
+
+  color-scheme: light dark;
+  color: rgba(54, 54, 54, 0.87);
+  background-color: #fcfcfc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
