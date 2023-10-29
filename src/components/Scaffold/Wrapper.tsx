@@ -6,6 +6,7 @@ import {Clients} from "../../Pages/Clients.tsx";
 import {Reports} from "../../Pages/Reports.tsx";
 import {Solutions} from "../../Pages/Solutions.tsx";
 import {Users} from "../../Pages/Users.tsx";
+import {Quotations} from "../../Pages/Quotations.tsx";
 
 interface WrapperProps {
   fullSize: boolean,
@@ -25,6 +26,7 @@ export const Wrapper = (props: WrapperProps) => {
         <Route path={"/solutions"} element={<Solutions />}/>
         <Route path={"/reports"} element={<Reports />}/>
         <Route path={"/users"} element={<Users />}/>
+        <Route path={"/quotations"} element={<Quotations/>}/>
       </Routes>
     </Grid>
   )

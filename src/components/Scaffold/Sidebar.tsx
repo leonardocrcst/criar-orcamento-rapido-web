@@ -1,5 +1,5 @@
 import {Grid} from "@mui/material";
-import {Dashboard, ManageAccounts, People, Print, ShoppingBasket} from "@mui/icons-material";
+import {Dashboard, ManageAccounts, People, PriceCheck, Print, ShoppingBasket} from "@mui/icons-material";
 import {Sidemenu} from "./Sidebar/Sidemenu.tsx";
 import logoCr from "../../assets/logo_cr_orcamento.png"
 
@@ -14,6 +14,11 @@ export const Sidebar = (props: SidebarProps) => {
       icon: <Dashboard />,
       primaryText: "Página inicial",
       href: "/"
+    },
+    {
+      icon: <PriceCheck/>,
+      primaryText: "Cotações",
+      href: "/quotations"
     },
     {
       icon: <People/>,
