@@ -17,7 +17,7 @@ export const Sidebar = (props: SidebarProps) => {
     },
     {
       icon: <PriceCheck/>,
-      primaryText: "Cotações",
+      primaryText: "Orçamentos",
       href: "/quotations"
     },
     {
