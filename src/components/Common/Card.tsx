@@ -1,11 +1,11 @@
 import {Card as BaseCard, CardContent, Typography} from "@mui/material";
-import React from "react";
+import {PropsWithChildren} from "react";
 
 interface CardProps {
   title: string
 }
 
-export const Card = (props: React.PropsWithChildren<CardProps>) => {
+export const Card = (props: PropsWithChildren<CardProps>) => {
   return (
     <BaseCard variant={"outlined"}>
       <CardContent>
