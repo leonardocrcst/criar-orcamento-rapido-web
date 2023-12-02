@@ -1,5 +1,5 @@
 interface CommonInterface {
-  uuid?: string
+  uuid: string
   created?: Date
   updated?: Date
   deleted?: Date

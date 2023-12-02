@@ -1,5 +1,5 @@
 interface UserInterface extends CommonInterface {
-  company?: CompanyInterface
-  username?: string
-  password?: string
+  company: CompanyInterface
+  username: string
+  password: string
 }

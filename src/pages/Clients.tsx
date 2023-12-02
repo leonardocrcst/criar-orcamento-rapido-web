@@ -1,5 +1,5 @@
 import {Content} from "../components/Scaffold/Wrapper/Content.tsx";
-import {Card, CardContent, Grid} from "@mui/material";
+import {Grid} from "@mui/material";
 import {useState} from "react";
 import {DataListType} from "../components/Common/DataListType.ts";
 import {DataList} from "../components/Common/DataList.tsx";
@@ -36,13 +36,9 @@ export const Clients = () => {
       <Content>
         <Grid container spacing={2} justifyContent={"center"}>
           <Grid item xs={12} sm={10} md={8} xl={6}>
-            <Card>
-              <CardContent>
-                {clients &&
-                    <DataList items={clients}/>
-                }
-              </CardContent>
-            </Card>
+            {clients &&
+                <DataList items={clients}/>
+            }
           </Grid>
         </Grid>
       </Content>
