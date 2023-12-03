@@ -8,7 +8,7 @@ interface DataListProps {
 export const DataList = (props: DataListProps) => {
 
   function listItem(item: DataListType) {
-    return <Card sx={{display: 'flex', marginBottom: 1}}>
+    return <Card sx={{display: 'flex', marginBottom: 1}} key={item.itemId}>
       <CardMedia
         component={'img'}
         sx={{width: 64, marginBottom: 2, marginTop: 2, paddingLeft: 2, paddingRight: 2}}
